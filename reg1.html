@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>cricket Registration Form</title>
+  <style>
+    
+    form {
+      margin: auto;
+      width:900px;
+      padding: 20px;
+      border: 1px solid;
+      border-radius: 10px;
+      background-color: #f1eeff;
+    }
+
+    h2 {
+      text-align: center;
+      font-size: 28px;
+      margin-bottom: 20px;
+    }
+
+    label {
+        display: block;
+      margin-bottom: 5px;
+      font-weight: bold;
+    }
+
+    input[type="text"],
+    input[type="email"],
+    input[type="number"] {
+      font-size: 17px;
+     
+      color: black;
+      width: 95%;
+      padding: 10px;
+      margin-bottom: 20px;
+      border: 1px solid;
+      border-radius: 5px;
+      }
+
+    .buttons {
+      display: flex;
+      justify-content: center;
+    }
+
+    .buttons button {
+      background-color: #dbf549;
+      
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px;
+      width: 150px;
+      font-size: 16px;
+      cursor: pointer;
+      margin-right: 10px;
+    }
+
+    .buttons button:hover {
+      background-color: #46d839;
+    }
+
+
+    table {
+        margin: 20px auto;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 30px;
+        }
+        th {
+            background-color: #8f8f8f;
+            color: white;
+            font-size: larger;
+        }
+        tr:hover {
+            background-color: #f5f5f5;
+        }
+        input[type="text"],
+    input[type="email"],
+    input[type="number"],
+    select {
+      font-size: 17px;
+     
+      color: black;
+      width: 95%;
+      padding: 10px;
+      margin-bottom: 20px;
+      border: 1px solid;
+      border-radius: 5px;
+      }
+      img
+      {
+        height: 400px;   
+        padding-left: 32%;
+      }
+  </style>
+</head>
+
+<body>
+  
+   
+  <form action="reg1.php" method="POST">
+    <h2>Cricket Registration Form</h2>
+
+    <label for="namet">Team Name:</label>
+    <input type="text" id="namet" name="namet" required>
+
+    <label for="namec">Caption Name:</label>
+    <input type="text" id="namec" name="namec" required>
+
+    <label for="email">Caption Email Address:</label>
+    <input type="email" id="email" name="emailc" required>
+
+    <label for="mobile">Caption Mobile number:</label>
+    <input type="number" id="mobile" name="mobilec" required>
+
+    <table>
+        <thead>
+            <tr>
+                <th>S.No</th>
+                <th>Name</th>
+                <th>Year</th>
+                <th>Age</th>
+               
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td><input type="text" name="name1"></td>
+                <td>
+                    <select id="year" name="year1" required>
+                        <option value="">Select year</option>
+                      <option value="first">1</option>
+                      <option value="second">2</option>
+                      <option value="third">3</option>
+                      <option value="fourth">4</option>
+                    </select></td>
+                <td><input type="text" name="age1"></td>
+               
+            </tr>
+            <tr>
+                <td>2</td>
+                <td><input type="text" name="name2"></td>
+                <td>
+                    <select id="year" name="year2" required>
+                        <option value="">Select year</option>
+                        <option value="first">1</option>
+                        <option value="second">2</option>
+                        <option value="third">3</option>
+                        <option value="fourth">4</option>
+                    </select></td>
+                <td><input type="text" name="age2"></td>
+               
+            </tr>
+            <tr>
+                <td>3</td>
+                <td><input type="text" id="name3" name="name3"></td>
+                <td>
+                    <select id="year" name="year3" required>
+                        <option value="">Select year</option>
+                        <option value="first">1</option>
+                        <option value="second">2</option>
+                        <option value="third">3</option>
+                        <option value="fourth">4</option>
+                    </select></td>
+                <td><input type="text" name="age3"></td>
+                
+            </tr>
+            <tr>
+                <td>4</td>
+                <td><input type="text" name="name4"></td>
+                <td>
+                    <select id="year" name="year4" required>
+                        <option value="">Select year</option>
+                        <option value="first">1</option>
+                        <option value="second">2</option>
+                        <option value="third">3</option>
+                        <option value="fourth">4</option>
+                    </select></td>
+                <td><input type="text" name="age4"></td>
+                
+            </tr>
+            <tr>
+                <td>5</td>
+                <td><input type="text" name="name5"></td>
+                <td>
+                    <select id="year" name="year5" required>
+                        <option value="">Select year</option>
+                        <option value="first">1</option>
+                        <option value="second">2</option>
+                        <option value="third">3</option>
+                        <option value="fourth">4</option>
+                    </select></td>
+                <td><input type="text" name="age5"></td>
+               
+            </tr>
+            <tr>
+                <td>6</td>
+                <td><input type="text" name="name6"></td>
+                <td>
+                    <select id="year" name="year6" required>
+                        <option value="">Select year</option>
+                        <option value="first">1</option>
+                        <option value="second">2</option>
+                        <option value="third">3</option>
+                        <option value="fourth">4</option>
+                    </select></td>
+                <td><input type="text" name="age6"></td>
+                
+            </tr>
+            <tr>
+                <td>7</td>
+                <td><input type="text" name="name7"></td>
+                <td>
+                    <select id="year" name="year7" required>
+                        <option value="">Select year</option>
+                        <option value="first">1</option>
+                        <option value="second">2</option>
+                        <option value="third">3</option>
+                        <option value="fourth">4</option>
+                    </select></td>
+                <td><input type="text" name="age7"></td>
+               
+            </tr>
+            <tr>
+                <td>8</td>
+                <td><input type="text" name="name8"></td>
+                <td>
+                    <select id="year" name="year8" required>
+                        <option value="">Select year</option>
+                        <option value="first">1</option>
+                        <option value="second">2</option>
+                        <option value="third">3</option>
+                        <option value="fourth">4</option>
+                    </select></td>
+                <td><input type="text" name="age8"></td>
+               
+            </tr>
+            <tr>
+                <td>9</td>
+                <td><input type="text" name="name9"></td>
+                <td>
+                    <select id="year" name="year9" required>
+                        <option value="">Select year</option>
+                        <option value="first">1</option>
+                        <option value="second">2</option>
+                        <option value="third">3</option>
+                        <option value="fourth">4</option>
+                    </select></td>
+                <td><input type="text" name="age9"></td>
+                
+            </tr>
+            <tr>
+                <td>10</td>
+                <td><input type="text" name="name10"></td>
+                <td>
+                    <select id="year" name="year10" required>
+                        <option value="">Select year</option>
+                        <option value="first">1</option>
+                        <option value="second">2</option>
+                        <option value="third">3</option>
+                        <option value="fourth">4</option>
+                    </select></td>
+                <td><input type="text" name="age10"></td>
+                
+            </tr>
+            <tr>
+                <td>11</td>
+                <td><input type="text" name="name11"></td>
+                <td>
+                    <select id="year" name="year11" required>
+                        <option value="">Select year</option>
+                        <option value="first">1</option>
+                        <option value="second">2</option>
+                        <option value="third">3</option>
+                        <option value="fourth">4</option>
+                    </select></td>
+                <td><input type="text" name="age11"></td>
+                
+            </tr>
+            <tr>
+                <td>12</td>
+                <td><input type="text" name="name12"></td>
+                <td>
+                    <select id="year" name="year12" required>
+                        <option value="">Select year</option>
+                        <option value="first">1</option>
+                        <option value="second">2</option>
+                        <option value="third">3</option>
+                        <option value="fourth">4</option>
+                    </select></td>
+                <td><input type="text" name="age12"></td>
+               
+            </tr>
+            <tr>
+                <td>13</td>
+                <td><input type="text" name="name13"></td>
+                <td>
+                    <select id="year" name="year13" required>
+                        <option value="">Select year</option>
+                        <option value="first">1</option>
+                        <option value="second">2</option>
+                        <option value="third">3</option>
+                        <option value="fourth">4</option>
+                    </select></td>
+                <td><input type="text" name="age13"></td>
+                
+            </tr>
+            <tr>
+                <td>14</td>
+                <td><input type="text" name="name14"></td>
+                <td>
+                    <select id="year" name="year14" required>
+                        <option value="">Select year</option>
+                        <option value="first">1</option>
+                        <option value="second">2</option>
+                        <option value="third">3</option>
+                        <option value="fourth">4</option>
+                    </select></td>
+                <td><input type="text" name="age14"></td>
+                
+            </tr>
+            <tr>
+                <td>15</td>
+                <td><input type="text" name="name15"></td>
+                <td>
+                    <select id="year" name="year15" required>
+                        <option value="">Select year</option>
+                        <option value="first">1</option>
+                        <option value="second">2</option>
+                        <option value="third">3</option>
+                        <option value="fourth">4</option>
+                    </select></td>
+                <td><input type="text" name="age15"></td>
+               
+            </tr>
+        </tbody>
+    </table>
+   <img src="images/1500.jpg">
+   <h4>Upload the payment screenshot:</h4>
+   <input type="file" id="image" name="image1" required>
+   
+
+    <div class="buttons">
+        <button type="reset">Reset</button>
+        <button type="submit" name="submit">Submit</button>
+      </div>
+
+   
+  </form>
+ 
+</body>
+
+</html>

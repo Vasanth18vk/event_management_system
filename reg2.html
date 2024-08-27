@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Team Registration Form</title>
+  <style>
+    
+    form {
+        margin: auto;
+        width:970px;
+        padding-left: 40px;
+        border: 1px solid;
+        border-radius: 20px;
+        background-color: rgb(217, 232, 252);
+    }
+
+    h2 {
+      text-align: center;
+      font-size: 28px;
+    }
+
+    label {
+      display: block;
+      margin-bottom: 5px;
+      font-weight: bold;
+
+    }
+
+    input[type="text"],
+    input[type="email"],
+    input[type="number"],
+    select {
+      font-size: 17px;
+      color: black;
+      width: 90%;
+      padding: 10px;
+      margin-bottom: 20px;
+      border: 1px solid ;
+      border-radius: 5px;
+      box-sizing: border-box;
+    }
+
+    .buttons {
+      display: block;
+     margin-left:38%;
+     padding-bottom: 20px;
+    }
+
+    .buttons button {
+      background-color:red;
+      color: white;
+      padding: 10px 20px;
+      border-radius: 5px;
+      font-size: 16px; 
+      cursor: pointer;
+      margin-right: 10px;
+    }
+
+    .buttons button:hover {
+      background-color: blue;
+    }
+    .one
+    {
+        display: block;
+        float: left;
+    }
+    .two
+    {
+        display: block;
+        float: left;
+    }
+    .three
+    {
+        display: block;
+        float: left;
+    }
+    .four
+    {
+        display: block;
+        float: left;
+    }
+    img
+      {
+        height: 400px;   
+        padding-left: 32%;
+      }
+  </style>
+</head>
+
+<body>
+  
+
+
+
+  
+  <form action="reg2.php" method="POST" enctype="multipart/form-data">
+
+    <h2>Team Registration Form</h2>
+    <div class="one">
+    <h3>Member 1(Team Leader):</h3>
+
+    <label for="name1">Name:</label>
+    <input type="text" id="name1" name="name1" required>
+
+    <label for="year1">Year:</label>
+    <select id="year1" name="year1" required>
+        <option value="">Select year</option>
+      <option value="1">First</option>
+      <option value="2">Second</option>
+      <option value="3">Third</option>
+      <option value="4">Fourth</option>
+    </select>
+    <label for="regno1">Reg.No:</label>
+    <input type="number" id="regno1" name="regno1" required>
+
+    <label for="Course">Course:</label>
+    <select id="Course" name="course1" required>
+      <option value="">Select Course</option>
+      <option value="it">IT</option>
+      <option value="cse">CSE</option>
+      <option value="ece">ECE</option>
+      <option value="eee">EEE</option>
+      <option value="civil">CIVIL</option>
+      <option value="mct">MCT</option>
+      <option value="mech">MECH</option>
+      <option value="aids">AIDS</option>
+      <option value="other">Other</option>
+    </select>
+
+
+    <label for="email">Email Address:</label>
+    <input type="email" id="email" name="email1" required>
+
+    <label for="gender">Gender:</label>
+    <select id="gender" name="gender1" required>
+      <option value="">Select Gender</option>
+      <option value="male">Male</option>
+      <option value="female">Female</option>
+      <option value="other">Other</option>
+    </select>
+   
+    <label for="mobile">Mobile:</label>
+    <input type="number" id="mobile" name="mobile1" required>
+
+    <label for="name">College/university Name:</label>
+    <input type="text" id="clg name" name="clgname1" required>
+    
+</div>
+<div class="two">
+    <h3>Member 2:</h3>
+
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name2" required>
+
+    <label for="year">Year:</label>
+    <select id="year" name="year2" required>
+        <option value="">Select year</option>
+        <option value="1">First</option>
+        <option value="2">Second</option>
+        <option value="3">Third</option>
+        <option value="4">Fourth</option>
+    </select>
+    <label for="regno">Reg.No:</label>
+    <input type="number" id="regno" name="regno2" required>
+
+    <label for="Course">Course:</label>
+    <select id="Course" name="course2" required>
+      <option value="">Select Course</option>
+      <option value="it">IT</option>
+      <option value="cse">CSE</option>
+      <option value="ece">ECE</option>
+      <option value="eee">EEE</option>
+      <option value="civil">CIVIL</option>
+      <option value="mct">MCT</option>
+      <option value="mech">MECH</option>
+      <option value="aids">AIDS</option>
+      <option value="other">Other</option>
+    </select>
+
+
+    <label for="email">Email Address:</label>
+    <input type="email" id="email" name="email2" required>
+
+    <label for="gender">Gender:</label>
+    <select id="gender" name="gender2" required>
+      <option value="">Select Gender</option>
+      <option value="male">Male</option>
+      <option value="female">Female</option>
+      <option value="other">Other</option>
+    </select>
+   
+    <label for="mobile">Mobile:</label>
+    <input type="number" id="mobile" name="mobile2" required>
+
+    <label for="name">College/university Name:</label>
+    <input type="text" id="clg name" name="clgname2" required>
+    
+</div>
+<div class="three">
+    <h3>Member 3:</h3>
+
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name3" required>
+
+    <label for="year">Year:</label>
+    <select id="year" name="year3" required>
+        <option value="">Select year</option>
+        <option value="1">First</option>
+        <option value="2">Second</option>
+        <option value="3">Third</option>
+        <option value="4">Fourth</option>
+    </select>
+    <label for="regno">Reg.No:</label>
+    <input type="number" id="regno" name="regno3" required>
+
+    <label for="Course">Course:</label>
+    <select id="Course" name="course3" required>
+      <option value="">Select Course</option>
+      <option value="it">IT</option>
+      <option value="cse">CSE</option>
+      <option value="ece">ECE</option>
+      <option value="eee">EEE</option>
+      <option value="civil">CIVIL</option>
+      <option value="mct">MCT</option>
+      <option value="mech">MECH</option>
+      <option value="aids">AIDS</option>
+      <option value="other">Other</option>
+    </select>
+
+
+    <label for="email">Email Address:</label>
+    <input type="email" id="email" name="email3" required>
+
+    <label for="gender">Gender:</label>
+    <select id="gender" name="gender3" required>
+      <option value="">Select Gender</option>
+      <option value="male">Male</option>
+      <option value="female">Female</option>
+      <option value="other">Other</option>
+    </select>
+   
+    <label for="mobile">Mobile:</label>
+    <input type="number" id="mobile" name="mobile3" required>
+
+    <label for="name">College/university Name:</label>
+    <input type="text" id="clg name" name="clgname3" required>
+    
+    
+</div>
+<div class="four">
+    <h3>Member 4:</h3>
+
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name4" required>
+
+    <label for="year">Year:</label>
+    <select id="year" name="year4" required>
+        <option value="">Select year</option>
+        <option value="1">First</option>
+        <option value="2">Second</option>
+        <option value="3">Third</option>
+        <option value="4">Fourth</option>
+    </select>
+    <label for="regno">Reg.No:</label>
+    <input type="number" id="regno" name="regno4" required>
+
+    <label for="Course">Course:</label>
+    <select id="Course" name="course4" required>
+      <option value="">Select Course</option>
+      <option value="it">IT</option>
+      <option value="cse">CSE</option>
+      <option value="ece">ECE</option>
+      <option value="eee">EEE</option>
+      <option value="civil">CIVIL</option>
+      <option value="mct">MCT</option>
+      <option value="mech">MECH</option>
+      <option value="aids">AIDS</option>
+      <option value="other">Other</option>
+    </select>
+
+
+    <label for="email">Email Address:</label>
+    <input type="email" id="email" name="email4" required>
+
+    <label for="gender">Gender:</label>
+    <select id="gender" name="gender4" required>
+      <option value="">Select Gender</option>
+      <option value="male">Male</option>
+      <option value="female">Female</option>
+      <option value="other">Other</option>
+    </select>
+   
+    <label for="mobile">Mobile:</label>
+    <input type="number" id="mobile" name="mobile4" required>
+
+    <label for="name">College/university Name:</label>
+    <input type="text" id="clg name" name="clgname4" required>
+    
+</div>
+<img src="images/200.jpg">
+<h4>Upload the payment screenshot:</h4>
+<input type="file" id="image1" name="image1" accept="image/*" required>
+
+<div class="buttons">
+    <button type="reset">Reset</button>
+    <button type="submit" name="sub">Submit</button>
+</div>
+    
+</form>
+
+</body>
+
+</html>

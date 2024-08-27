@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    
+</head>
+<style>
+    body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.login-container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    text-align: center;
+    color: #333;
+}
+
+
+</style>
+<body>
+    <div class="login-container">
+        <h2>Login</h2>
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username" required><br>
+<br>
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required><br>
+<br>
+<center>
+    <button onclick="login()">Login</button>
+    </div>
+</center>
+        
+
+    <script>
+        function login() {
+    var username = document.getElementById("username").value;
+    var password = document.getElementById("password").value;
+
+    // Check if username and password are correct
+    if (username === "staff" && password === "12345678") {
+      window.location.href = "index.html";
+       
+    } else {
+        alert("Invalid username or password. Please try again.");
+    }
+}
+
+    </script>
+</body>
+</html>

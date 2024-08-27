@@ -1,0 +1,408 @@
+header {
+
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    align-items: center;
+    background-color: navy;
+    z-index: 1000;
+}
+
+.head>nav>ul {
+    display: flex;
+    gap: 100px;
+    font-size: x-large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.head>nav>ul>a:link {
+    color: white;
+    text-decoration: none;
+}
+
+.head>nav>ul>a:visited {
+    color: white;
+    text-decoration: none;
+}
+
+.head>nav>ul>a:hover {
+    color: red;
+    text-decoration: none;
+}
+#index
+{
+    background-image: url("images/ba.avif");
+    background-repeat: no-repeat;
+   
+    background-size: cover;
+}
+
+.home >img
+{
+  height:800px;
+  width: 30%;
+  border-radius: 60px;
+ margin-right:60px ;
+  float: right;
+  border:solid;
+}
+.home >h1
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 200PX;
+    text-align: center;
+    font-size: 60px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.home >h2
+{   
+    line-height: 1.5;
+    width: 900px;
+    text-align: center;
+    font-size: 40px;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.home >button >a
+{
+   text-align: center;
+   text-decoration: none;
+   font-size: x-large;
+   font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   color: white;
+}
+.home >button >a:hover
+{
+    color:black;
+}
+.home >button
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 80px;
+    width:200px;
+    border-radius: 50px;
+    cursor: pointer;
+    background-color: red;
+    margin-top: 100px;
+}
+.home p,h1,h2
+{
+    margin-left: 10%;
+    
+}
+.about
+{
+    background-image: url("images/ab.jpg");
+    background-repeat: no-repeat;
+    background-size: 1000%;
+}
+.about >p
+{
+    font-size: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   line-height: 2;
+    padding: 40px;
+}
+.tho >img
+{
+height: 300px;
+width: 300px;
+border-radius: 40px;
+padding: 20px;
+margin-left: 100px;
+float: left;
+}
+.spo >img
+{
+height: 300px;
+width: 300px;
+border-radius: 40px;
+padding: 20px;
+transform: rotate(270deg);
+float:left;
+margin-left: 70px;
+}
+
+.tec >img
+{
+height: 250px;
+width: 300px;
+border-radius: 40px;
+padding: 20px;
+float: right;
+margin-right: 100px;
+}
+.img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+}
+
+
+.con1>img {
+    height: 100px;
+    margin-left: 9%;
+    margin-top: 30px;
+
+}
+
+.con {
+    margin-right: 200px;
+    float: right;
+    position: relative;
+    width: 800px;
+    height: 700px;
+}
+
+.con1>p {
+    padding-right: 70%;
+    padding-bottom: 50px;
+    padding-left: 9%;
+    color: white;
+    font-size: 25px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+
+
+.column1 {
+    float: left;
+
+}
+
+.row1::after {
+    content: "";
+    clear: both;
+    display: table;
+
+}
+
+.mail>p {
+    line-height: 1.5;
+
+    font-size: x-large;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: white;
+    padding-left: 20px;
+}
+
+.mail {
+    display: flex;
+}
+
+.mail1 {
+    width: 60px;
+    height: 60px;
+    margin-left: 40px;
+}
+
+.phone>p {
+    line-height: 2.5;
+
+    font-size: x-large;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: white;
+    padding-left: 20px;
+}
+
+.phone {
+    display: flex;
+}
+
+.phone1 {
+    width: 60px;
+    height: 60px;
+    margin-left: 40px;
+    margin-top: 22px;
+}
+
+.mobile>p {
+    line-height: 2.5;
+
+    font-size: x-large;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: white;
+    padding-left: 20px;
+}
+
+.mobile {
+    display: flex;
+}
+
+.mobile1 {
+
+    width: 60px;
+    height: 60px;
+    margin-left: 40px;
+    margin-top: 23px;
+}
+
+.location>p {
+    line-height: 2.5;
+
+    font-size: x-large;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: white;
+    padding-left: 20px;
+}
+
+.location {
+    display: flex;
+}
+
+.location1 {
+
+    width: 60px;
+    height: 60px;
+    margin-left: 40px;
+    margin-top: 30px;
+}
+
+.work>p {
+
+
+    font-size: x-large;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: white;
+    padding-left: 20px;
+}
+
+.work {
+    display: flex;
+}
+
+.work1 {
+    width: 60px;
+    height: 60px;
+    margin-left: 40px;
+
+}
+
+.con {
+    padding-top: 2.5%;
+}
+
+.column {
+    float: left;
+    width: 400px;
+    margin-left: 100px;
+    padding-left: 30px;
+}
+
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.card {
+    perspective: 150rem;
+    position: relative;
+    height: 40rem;
+    max-width: 400px;
+    box-shadow: none;
+    background: none;
+    padding-bottom: 200px;
+   
+}
+
+
+.card-side {
+    height: 38rem;
+    border-radius: 15px;
+    transition: all 0.8s ease;
+    backface-visibility: hidden;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 80%;
+    padding: 2rem;
+    color: white;
+   
+}
+
+.card-side.front>h1 {
+
+    text-align: center;
+    font-size: xx-large;
+}
+
+.card-side.front>h2 {
+
+    text-align: center;
+}
+
+.card-side.front>pre {
+    font-size: 19px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: black;
+}
+
+.card-side.back>h1,
+h3 {
+    text-align: center;
+    color: black;
+
+}
+
+.card-side.back>p {
+
+    font-size: 19px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.card-side.back>button {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 60px;
+    width: 190px;
+    background-color: lightcyan;
+    border-radius: 20px;
+    font-size: large;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.card-side.back {
+    transform: rotateY(-180deg);
+    background-color: #4158D0;
+    background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+}
+
+.card-side.front {
+    background-color: #0093E9;
+    background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
+}
+
+.card:hover .card-side.front {
+    transform: rotateY(180deg);
+}
+
+.card:hover .card-side.back {
+    transform: rotateY(0deg);
+}
+
+.cimg>img {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.row
+{
+    background-image: url("images/bl.jpeg");
+    background-repeat: no-repeat;
+    background-size: 1000%;
+    padding-top: 150px;
+}
